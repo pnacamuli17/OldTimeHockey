@@ -39,7 +39,7 @@ export default class LeagueStandingsTable extends Component {
             ''
           ) : (
             <center>
-              <Header as="h2" textAlign="center">
+              <Header as="h3" textAlign="center">
                 <Image src={this.props.imgSrc} />{' '}
                 <a
                   href={`https://www.fleaflicker.com/nhl/leagues/${this.props.leagueID}?season=${year}`}
@@ -49,7 +49,7 @@ export default class LeagueStandingsTable extends Component {
                 </a>{' '}
                 <Image src={this.props.imgSrc} />
               </Header>
-              <Table definition celled fixed compact>
+              <Table definition celled fixed compact size="small">
                 <Table.Header>
                   <Table.Row>
                     <Table.HeaderCell width={2} />

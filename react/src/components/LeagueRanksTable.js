@@ -38,7 +38,7 @@ export default class LeagueRanksTable extends Component {
             <Loader active size="large" style={{ marginTop: '13px' }} />
           ) : (
             <center>
-              <Table definition celled fixed compact>
+              <Table definition celled fixed compact size="small">
                 <Table.Header>
                   <Table.Row>
                     <Table.HeaderCell width={2} />
