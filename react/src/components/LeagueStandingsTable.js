@@ -53,16 +53,16 @@ export default class LeagueStandingsTable extends Component {
                 <Table.Header>
                   <Table.Row>
                     <Table.HeaderCell width={2} />
-                    <Table.HeaderCell width={6} textAlign="center">
+                    <Table.HeaderCell width={8} textAlign="center">
                       Team
                     </Table.HeaderCell>
-                    <Table.HeaderCell width={3} textAlign="center">
+                    <Table.HeaderCell width={4} textAlign="center">
                       Owner
                     </Table.HeaderCell>
-                    <Table.HeaderCell width={2} textAlign="center">
+                    <Table.HeaderCell width={3} textAlign="center">
                       Wins
                     </Table.HeaderCell>
-                    <Table.HeaderCell width={2} textAlign="center">
+                    <Table.HeaderCell width={3} textAlign="center">
                       Losses
                     </Table.HeaderCell>
                   </Table.Row>

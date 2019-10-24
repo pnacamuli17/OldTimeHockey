@@ -43,21 +43,21 @@ export default class LeagueRanksTable extends Component {
                   <Table.Row>
                     <Table.HeaderCell width={2} />
                     <Table.HeaderCell
-                      width={4}
+                      width={6}
                       textAlign="center"
                       sorted={column === 'name' ? direction : null}
                     >
                       League
                     </Table.HeaderCell>
                     <Table.HeaderCell
-                      width={4}
+                      width={6}
                       textAlign="center"
                       sorted={column === 'PF' ? direction : null}
                     >
                       Total PF
                     </Table.HeaderCell>
                     <Table.HeaderCell
-                      width={4}
+                      width={6}
                       textAlign="center"
                       sorted={column === 'avgPF' ? direction : null}
                     >
